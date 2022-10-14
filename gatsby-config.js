@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
+  trailingSlash: "never",
   plugins: [
     {
       resolve: `gatsby-plugin-gatsby-cloud`,
