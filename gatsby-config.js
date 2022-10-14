@@ -14,6 +14,11 @@ module.exports = {
             "X-Content-Type-Options: nosniff",
             "Referrer-Policy: same-origin",
           ],
+          "/event/": [
+            "X-XSS-Protection: 1; mode=block",
+            "X-Content-Type-Options: nosniff",
+            "Referrer-Policy: same-origin",
+          ],
           "/images/*": [
             "Cache-Control: public, max-age=3600"
           ],
