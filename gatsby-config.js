@@ -8,7 +8,7 @@ module.exports = {
       options: {
         headers: {
           "/event": [
-            "X-Frame-Options" // I think this will override it
+            "X-Frame-Options: ''" // I think this will override it
           ],
           "/images/*": [
             "Cache-Control: public, max-age=3600"
